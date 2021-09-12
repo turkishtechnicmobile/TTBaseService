@@ -1,6 +1,6 @@
 //
 //  ServicePath.swift
-//  NMBaseService
+//  TTBaseService
 //
 //  Created by Remzi YILDIRIM on 13.02.2020.
 //  Copyright © 2020 Turkish Technic. All rights reserved.

@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B91EE55A26EBB8190005B295 /* TTBaseService.h in Headers */ = {isa = PBXBuildFile; fileRef = B91EE55826EBB8190005B295 /* TTBaseService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B91EE56226EBB8450005B295 /* Others in Resources */ = {isa = PBXBuildFile; fileRef = B91EE56026EBB8450005B295 /* Others */; };
-		B91EE56326EBB8450005B295 /* Manager in Resources */ = {isa = PBXBuildFile; fileRef = B91EE56126EBB8450005B295 /* Manager */; };
+		B9E22A4426ED9DA000E2EA9A /* QueryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E22A4226ED9DA000E2EA9A /* QueryProvider.swift */; };
+		B9E22A4526ED9DA000E2EA9A /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E22A4326ED9DA000E2EA9A /* ServiceManager.swift */; };
+		B9E22A4726ED9DA500E2EA9A /* ServicePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E22A4626ED9DA500E2EA9A /* ServicePath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B91EE55526EBB8190005B295 /* TTBaseService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTBaseService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91EE55826EBB8190005B295 /* TTBaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBaseService.h; sourceTree = "<group>"; };
 		B91EE55926EBB8190005B295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B91EE56026EBB8450005B295 /* Others */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Others; sourceTree = "<group>"; };
-		B91EE56126EBB8450005B295 /* Manager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Manager; sourceTree = "<group>"; };
+		B9E22A4226ED9DA000E2EA9A /* QueryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryProvider.swift; sourceTree = "<group>"; };
+		B9E22A4326ED9DA000E2EA9A /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		B9E22A4626ED9DA500E2EA9A /* ServicePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +52,9 @@
 		B91EE55726EBB8190005B295 /* TTBaseService */ = {
 			isa = PBXGroup;
 			children = (
-				B91EE56126EBB8450005B295 /* Manager */,
-				B91EE56026EBB8450005B295 /* Others */,
+				B9E22A4226ED9DA000E2EA9A /* QueryProvider.swift */,
+				B9E22A4626ED9DA500E2EA9A /* ServicePath.swift */,
+				B9E22A4326ED9DA000E2EA9A /* ServiceManager.swift */,
 				B91EE55826EBB8190005B295 /* TTBaseService.h */,
 				B91EE55926EBB8190005B295 /* Info.plist */,
 			);
@@ -126,8 +129,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91EE56326EBB8450005B295 /* Manager in Resources */,
-				B91EE56226EBB8450005B295 /* Others in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E22A4426ED9DA000E2EA9A /* QueryProvider.swift in Sources */,
+				B9E22A4526ED9DA000E2EA9A /* ServiceManager.swift in Sources */,
+				B9E22A4726ED9DA500E2EA9A /* ServicePath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

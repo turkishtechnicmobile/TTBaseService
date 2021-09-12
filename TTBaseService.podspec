@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'TTBaseService'
-  spec.version      = '0.0.1'
+  spec.version      = '0.0.2'
   spec.authors      = { 
     'Hasan KACAR' => 'hasankacar@thy.com'
   }
@@ -18,8 +18,9 @@ Pod::Spec.new do |spec|
   spec.source_files = '**/*.swift', '*.swift'
   spec.swift_versions = '4.2'
   spec.ios.deployment_target = '11.0'
+  
   spec.dependency 'ObjectMapper', '~> 4.2.0'
   spec.dependency 'Alamofire', '~>4.9.1'
-  spec.dependency 'TTBaseModel', '~>0.0.1'
-  spec.dependency 'TTBaseApp', '~>0.0.1'
+  spec.dependency 'TTBaseModel'
+  spec.dependency 'TTBaseApp'
 end
