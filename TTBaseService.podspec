@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'TTBaseService'
-  spec.version      = '0.0.2'
+  spec.version      = '0.0.3'
   spec.authors      = { 
     'Hasan KACAR' => 'hasankacar@thy.com'
   }
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
     :branch => 'master',
     :tag => spec.version.to_s 
   }
-  spec.summary      = 'test case for base frameworks'
+  spec.summary      = 'Base application frameworks for Turkish Technic\'s Applications. Don\'t use it without permission.'
   spec.source_files = '**/*.swift', '*.swift'
   spec.swift_versions = '4.2'
   spec.ios.deployment_target = '11.0'
